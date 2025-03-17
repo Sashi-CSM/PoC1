@@ -6,12 +6,12 @@
    <elementGuidId>f982604f-2e8c-4ce9-bb52-127c78570479</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#btn-login</value>
+         <key>XPATH</key>
+         <value>//*[@id = 'btn-loginjunk']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id = 'btn-login']</value>
+         <key>CSS</key>
+         <value>#btn-login</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>afd912e5-6ecb-4ab5-9478-763de5ee83d2</webElementGuid>
+      <webElementGuid>1944f308-fd98-4821-a0f1-4847c1a3ba19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>btn-login</value>
-      <webElementGuid>b3a134d0-03e1-4069-9649-5796bf5f3321</webElementGuid>
+      <webElementGuid>5695df83-223c-4b2d-a968-83e934983ab4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>ef260f06-23c2-4964-baca-ee5fbb145a51</webElementGuid>
+      <webElementGuid>0b0d399b-73e2-4305-b5f7-8eeb91a7f56b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-default</value>
-      <webElementGuid>44579e30-b420-48ca-8036-698d99f48fb9</webElementGuid>
+      <webElementGuid>bc2844f6-d3ff-421e-a1f5-6179d9c10297</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>btn-login</value>
-      <webElementGuid>73b77690-e6b2-44e3-a885-f3dbce80fe97</webElementGuid>
+      <webElementGuid>166d06df-5a5e-494d-8025-8837f399b912</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>@text</name>
       <type>Main</type>
       <value>Login</value>
-      <webElementGuid>113f9420-1ab6-4d3d-a783-fee4ab27a4fc</webElementGuid>
+      <webElementGuid>b09da8fd-2b97-4d7b-8d90-0ebb7ef3c7c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-1b6b57d9e0c55aba5c1431dc2d9648da</value>
-      <webElementGuid>796af1fc-9874-41fa-a928-84354a56f53f</webElementGuid>
+      <webElementGuid>cfba2159-cdfa-4bf4-af83-47d90326b010</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id = 'btn-login']</value>
-      <webElementGuid>b8285959-e758-429c-903b-7fca069e970e</webElementGuid>
+      <webElementGuid>03a081c4-65a8-47da-b756-20bf274ab512</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@id = 'btn-login']</value>
-      <webElementGuid>78e2b6e1-f9fc-460e-aeca-dc682e103bd6</webElementGuid>
+      <webElementGuid>26227c6f-8b50-44bf-97b0-17738e71c653</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'btn-login' and @type = 'submit' and (text() = 'btn-login' or . = 'btn-login')]</value>
-      <webElementGuid>51315017-2c55-4517-815c-5142a92a231d</webElementGuid>
+      <webElementGuid>288b318e-1751-4ac5-ba4b-e0d57e466c3c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
