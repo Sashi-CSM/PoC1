@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_CURA Healthcare Service/a_btn-make-appointment",
+      "brokenLocator": "//*[@id \u003d \u0027btn-make-appointmentjunk\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@id \u003d \u0027btn-make-appointment\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250319_153550/CURA Health Service/Test Suite - Book Appointment/20250319_153550/Object Repository/Page_CURA Healthcare Service/a_btn-make-appointment_attributes.png"
+    }
+  ]
+}
