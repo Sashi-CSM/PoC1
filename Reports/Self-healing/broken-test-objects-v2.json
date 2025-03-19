@@ -2,13 +2,13 @@
   "brokenTestObjects": [
     {
       "approved": true,
-      "testObjectId": "Object Repository/Page_CURA Healthcare Service/button_btn-login",
-      "brokenLocator": "//*[@id \u003d \u0027btn-loginjunk\u0027]",
+      "testObjectId": "Object Repository/Page_CURA Healthcare Service/a_btn-make-appointment",
+      "brokenLocator": "//*[@id \u003d \u0027btn-make-appointmentjunk\u0027]",
       "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//*[@id \u003d \u0027btn-login\u0027]",
+      "proposedLocator": "//*[@id \u003d \u0027btn-make-appointment\u0027]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_CURA Healthcare Service/button_btn-login_attributes.png"
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_CURA Healthcare Service/a_btn-make-appointment_attributes.png"
     }
   ]
 }
