@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_CURA Healthcare Service/input_Password",
+      "brokenLocator": "//*[@id \u003d \u0027txt-passwordjunk\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@id \u003d \u0027txt-password\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250320_161952/CURA Health Service/Test Suite - Book Appointment/20250320_161953/Object Repository/Page_CURA Healthcare Service/input_Password_attributes.png"
+    }
+  ]
+}
