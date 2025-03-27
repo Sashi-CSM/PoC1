@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Book Appointment-1,,,,21-03-2025 18:02:30,21-03-2025 18:03:16,46.059s,FAILED
+,,,,,,,
+Test Cases/CURA Health Service/TC_Book Appointment-1,,,,21-03-2025 18:03:05,21-03-2025 18:03:16,10.569s,FAILED
+Start listener action : enableSauceLabs,,,,21-03-2025 18:03:05,21-03-2025 18:03:05,0.001s,PASSED
+"openBrowser("""")",,,,21-03-2025 18:03:05,21-03-2025 18:03:16,10.548s,FAILED
+Start listener action : autoUpdateJobStatus,,,,21-03-2025 18:03:16,21-03-2025 18:03:16,0.001s,PASSED

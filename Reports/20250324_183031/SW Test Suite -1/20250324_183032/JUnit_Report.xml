@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SW Test Suite -1" time="18.577" tests="1" failures="0" errors="0">
+   <testsuite name="SW Test Suite -1" tests="1" failures="0" errors="0" time="18.577" skipped="0" timestamp="24-03-2025T18:30:39" hostname="sashidharmudigonda - 192.168.1.11" id="Test Suites/SW Test Suite -1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/sashidharmudigonda/Documents/Katalon Projects/PoC1/Reports/20250324_183031/SW Test Suite -1/20250324_183032"/>
+         <property name="logFiles" value="/Users/sashidharmudigonda/Documents/Katalon Projects/PoC1/Reports/20250324_183031/SW Test Suite -1/20250324_183032/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sashidharmudigonda - 192.168.1.11"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 134.0.6998.118"/>
+         <property name="hostAddress" value="192.168.1.11"/>
+         <property name="sessionId" value="f20ec61f11ac606244ba012b45273de1"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC_SW Book Appointment_1" time="18.424" classname="Test Cases/TC_SW Book Appointment_1" status="PASSED">
+         <system-out><![CDATA[24-03-2025T18:30:40 - [TEST_CASE][PASSED] - Test Cases/TC_SW Book Appointment_1: Test Cases/TC_SW Book Appointment_1
+
+24-03-2025T18:30:40 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+24-03-2025T18:30:40 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+24-03-2025T18:30:40 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+24-03-2025T18:30:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-03-2025T18:30:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-03-2025T18:30:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-03-2025T18:30:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-03-2025T18:30:44 - [TEST_STEP][PASSED] - navigateToUrl("http://demoaut.katalon.com/"): Navigate to 'http://demoaut.katalon.com/' successfully
+
+24-03-2025T18:30:51 - [MESSAGE][PASSED] - Navigate to 'http://demoaut.katalon.com/' successfully
+
+24-03-2025T18:30:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+24-03-2025T18:30:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+24-03-2025T18:30:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+24-03-2025T18:30:52 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+24-03-2025T18:30:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "XS6wHrpNKMo="): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+24-03-2025T18:30:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+24-03-2025T18:30:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/label_Password")): Object: 'Object Repository/Page_CURA Healthcare Service/label_Password' is clicked on
+
+24-03-2025T18:30:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/label_Password' is clicked on
+
+24-03-2025T18:30:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+24-03-2025T18:30:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+24-03-2025T18:30:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+24-03-2025T18:30:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+24-03-2025T18:30:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+24-03-2025T18:30:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+24-03-2025T18:30:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34")): Object: 'Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+24-03-2025T18:30:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+24-03-2025T18:30:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/td_5")): Object: 'Object Repository/Page_CURA Healthcare Service/td_5' is clicked on
+
+24-03-2025T18:30:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/td_5' is clicked on
+
+24-03-2025T18:30:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment"), "sample appointment"): Text 'sample appointment' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+24-03-2025T18:30:56 - [MESSAGE][PASSED] - Text 'sample appointment' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+24-03-2025T18:30:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+24-03-2025T18:30:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+24-03-2025T18:30:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation"), "Appointment Confirmation"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation' are matched.
+
+24-03-2025T18:30:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation' are matched.
+
+24-03-2025T18:30:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+24-03-2025T18:30:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+24-03-2025T18:30:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-03-2025T18:30:58 - [MESSAGE][PASSED] - Browser is closed
+
+24-03-2025T18:30:58 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+24-03-2025T18:30:58 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-03-2025T18:30:39 - [TEST_SUITE][PASSED] - SW Test Suite -1: Test Cases/TC_SW Book Appointment_1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

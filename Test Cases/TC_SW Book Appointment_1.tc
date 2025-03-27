@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_SW Book Appointment_1</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>89260d43-b81a-41c5-adf4-65c95323f383</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bcd5e0ab-9b31-42a5-ad2c-7ad48c9e8f70</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>bcd5e0ab-9b31-42a5-ad2c-7ad48c9e8f70</id>
+      <masked>false</masked>
+      <name>vURL</name>
+   </variable>
+</TestCaseEntity>

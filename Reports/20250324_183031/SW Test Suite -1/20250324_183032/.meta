@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20250324_183032</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;issueCollectionMap&quot;:{&quot;0&quot;:{&quot;testCaseId&quot;:&quot;Test Cases/TC_SW Book Appointment_1&quot;,&quot;issues&quot;:[{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0005j:&quot;,&quot;customfield_10049&quot;:[],&quot;customfield_10040&quot;:[],&quot;customfield_10002&quot;:[]},&quot;status&quot;:{&quot;id&quot;:10030,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://sashidharm.atlassian.net/&quot;,&quot;statusCategory&quot;:{&quot;id&quot;:2,&quot;key&quot;:&quot;new&quot;,&quot;colorName&quot;:&quot;blue-gray&quot;,&quot;self&quot;:&quot;https://sashidharm.atlassian.net/rest/api/2/statuscategory/2&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;self&quot;:&quot;https://sashidharm.atlassian.net/rest/api/2/status/10030&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://sashidharm.atlassian.net/rest/api/2/project/10005&quot;,&quot;key&quot;:&quot;JPD1&quot;,&quot;id&quot;:10005,&quot;name&quot;:&quot;Jira Project Demo 1&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Test&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;sashidharm@yahoo.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Sashidhar Mudigonda&quot;,&quot;accountId&quot;:&quot;712020:9f48149e-4195-40b5-a608-8ec171e03e19&quot;,&quot;self&quot;:&quot;https://sashidharm.atlassian.net/rest/api/2/user?accountId\u003d712020%3A9f48149e-4195-40b5-a608-8ec171e03e19&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://sashidharm.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://sashidharm.atlassian.net/rest/api/2/issue/JPD1-5/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://sashidharm.atlassian.net/rest/api/2/issue/10121&quot;,&quot;key&quot;:&quot;JPD1-5&quot;,&quot;id&quot;:10121}]}}}</value>
+         </entry>
+      </properties>
+      <type>REPORT</type>
+   </integratedEntity>
+   <displayName>20250324_183032</displayName>
+</ReportEntity>

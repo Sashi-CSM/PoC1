@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://demoaut.katalon.com/'</initValue>
+      <name>vURL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

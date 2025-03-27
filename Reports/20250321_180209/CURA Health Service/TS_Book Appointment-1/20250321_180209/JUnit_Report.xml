@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Book Appointment-1" time="13.692" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Book Appointment-1" tests="1" failures="0" errors="0" time="13.692" skipped="0" timestamp="21-03-2025T18:02:13" hostname="sashidharmudigonda - 192.168.1.8" id="Test Suites/CURA Health Service/TS_Book Appointment-1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/sashidharmudigonda/Documents/Katalon Projects/PoC1/Reports/20250321_180209/CURA Health Service/TS_Book Appointment-1/20250321_180209"/>
+         <property name="logFiles" value="/Users/sashidharmudigonda/Documents/Katalon Projects/PoC1/Reports/20250321_180209/CURA Health Service/TS_Book Appointment-1/20250321_180209/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sashidharmudigonda - 192.168.1.8"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 134.0.6998.118"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="8503b56f69c9e87a163b4b2d2c4945da"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/CURA Health Service/TC_Book Appointment-1" time="13.633" classname="Test Cases/CURA Health Service/TC_Book Appointment-1" status="PASSED">
+         <system-out><![CDATA[21-03-2025T18:02:13 - [TEST_CASE][PASSED] - Test Cases/CURA Health Service/TC_Book Appointment-1: Test Cases/CURA Health Service/TC_Book Appointment-1
+
+21-03-2025T18:02:13 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+21-03-2025T18:02:13 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome (headless)
+
+21-03-2025T18:02:13 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+21-03-2025T18:02:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-03-2025T18:02:14 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+21-03-2025T18:02:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-03-2025T18:02:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-03-2025T18:02:17 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-03-2025T18:02:20 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-03-2025T18:02:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service"), "CURA Healthcare Service"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service' are matched.
+
+21-03-2025T18:02:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service' are matched.
+
+21-03-2025T18:02:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/a_btn-make-appointment"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/a_btn-make-appointment' are matched.
+
+21-03-2025T18:02:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/a_btn-make-appointment' are matched.
+
+21-03-2025T18:02:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_btn-make-appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_btn-make-appointment' is clicked on
+
+21-03-2025T18:02:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_btn-make-appointment' is clicked on
+
+21-03-2025T18:02:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username'
+
+21-03-2025T18:02:22 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username'
+
+21-03-2025T18:02:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Password' is clicked on
+
+21-03-2025T18:02:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Password' is clicked on
+
+21-03-2025T18:02:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password'
+
+21-03-2025T18:02:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password'
+
+21-03-2025T18:02:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_btn-login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_btn-login' is clicked on
+
+21-03-2025T18:02:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_btn-login' is clicked on
+
+21-03-2025T18:02:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/h2_Make Appointment"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/h2_Make Appointment' are matched.
+
+21-03-2025T18:02:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/h2_Make Appointment' are matched.
+
+21-03-2025T18:02:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission' is clicked on
+
+21-03-2025T18:02:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission' is clicked on
+
+21-03-2025T18:02:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar")): Object: 'Object Repository/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+21-03-2025T18:02:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+21-03-2025T18:02:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/td_5")): Object: 'Object Repository/Page_CURA Healthcare Service/td_5' is clicked on
+
+21-03-2025T18:02:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/td_5' is clicked on
+
+21-03-2025T18:02:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/textarea_Comment"), "Make an appointment"): Text 'Make an appointment' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment'
+
+21-03-2025T18:02:25 - [MESSAGE][PASSED] - Text 'Make an appointment' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment'
+
+21-03-2025T18:02:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_btn-book-appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/button_btn-book-appointment' is clicked on
+
+21-03-2025T18:02:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_btn-book-appointment' is clicked on
+
+21-03-2025T18:02:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation"), "Appointment Confirmation"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation' are matched.
+
+21-03-2025T18:02:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation' are matched.
+
+21-03-2025T18:02:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+21-03-2025T18:02:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+21-03-2025T18:02:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-03-2025T18:02:27 - [MESSAGE][PASSED] - Browser is closed
+
+21-03-2025T18:02:27 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome (headless)
+
+21-03-2025T18:02:27 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome (headless)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-03-2025T18:02:13 - [TEST_SUITE][PASSED] - TS_Book Appointment-1: Test Cases/CURA Health Service/TC_Book Appointment-1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
