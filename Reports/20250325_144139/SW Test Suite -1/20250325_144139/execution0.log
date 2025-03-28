@@ -2197,9 +2197,7 @@
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
-</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2025-03-27T12:11:49.750837Z</date>
   <millis>1743077509750</millis>
@@ -2298,3 +2296,102 @@
   <escapedJava>false</escapedJava>
   <property name="harId">00ada083-ee6d-4992-8dfd-8a8c8161ba08</property>
 </record>
+<record>
+  <date>2025-03-27T13:12:15.292580Z</date>
+  <millis>1743081135292</millis>
+  <nanos>580000</nanos>
+  <sequence>599</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>301</thread>
+  <message>HAR: /var/folders/zw/b6zyb6qx0zq3hftmq878nqxh0000gn/T/har16335796294818521975/requests/ModalContext/POST_CREATE_7.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">bfffa419-24a2-4937-95ab-53cd498921f9</property>
+</record>
+<record>
+  <date>2025-03-27T13:35:22.779454Z</date>
+  <millis>1743082522779</millis>
+  <nanos>454000</nanos>
+  <sequence>600</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>342</thread>
+  <message>HAR: /var/folders/zw/b6zyb6qx0zq3hftmq878nqxh0000gn/T/har6114078594985171063/requests/ModalContext/GET_LIST-USERS_8.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">7d94aea2-47a3-4d86-b06f-4fe16d87c3a6</property>
+</record>
+<record>
+  <date>2025-03-27T13:38:24.994093Z</date>
+  <millis>1743082704994</millis>
+  <nanos>93000</nanos>
+  <sequence>625</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>380</thread>
+  <message>HAR: /var/folders/zw/b6zyb6qx0zq3hftmq878nqxh0000gn/T/har14719309975737217822/requests/ModalContext/GET_LIST-USERS_9.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">079ba0a4-2c14-416b-a606-225ae46f0e05</property>
+</record>
+<record>
+  <date>2025-03-27T13:38:45.878760Z</date>
+  <millis>1743082725878</millis>
+  <nanos>760000</nanos>
+  <sequence>626</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>390</thread>
+  <message>HAR: /var/folders/zw/b6zyb6qx0zq3hftmq878nqxh0000gn/T/har9017989087820609115/requests/ModalContext/GET_LIST-USERS_10.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">35a91463-b676-41e8-930e-d5ac5184d7c5</property>
+</record>
+<record>
+  <date>2025-03-27T13:38:53.335660Z</date>
+  <millis>1743082733335</millis>
+  <nanos>660000</nanos>
+  <sequence>628</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>392</thread>
+  <message>HAR: /var/folders/zw/b6zyb6qx0zq3hftmq878nqxh0000gn/T/har11877815817958219136/requests/ModalContext/GET_LIST-USERS_11.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">4482279d-87f6-455a-9013-a07cb133a2f7</property>
+</record>
+<record>
+  <date>2025-03-27T13:39:28.474324Z</date>
+  <millis>1743082768474</millis>
+  <nanos>324000</nanos>
+  <sequence>646</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>414</thread>
+  <message>HAR: /var/folders/zw/b6zyb6qx0zq3hftmq878nqxh0000gn/T/har15607234812630917292/requests/ModalContext/GET_LIST-USERS_12.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">dbcac15f-03d3-4241-87d4-78efc19ad43b</property>
+</record>
+<record>
+  <date>2025-03-27T13:43:53.597540Z</date>
+  <millis>1743083033597</millis>
+  <nanos>540000</nanos>
+  <sequence>657</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>434</thread>
+  <message>HAR: /var/folders/zw/b6zyb6qx0zq3hftmq878nqxh0000gn/T/har12850938727221799293/requests/ModalContext/GET_LIST-USERS_13.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">2626062f-f5a1-4a8f-8bad-99f2ea3288c2</property>
+</record>
+</log>

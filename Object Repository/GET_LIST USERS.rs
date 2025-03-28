@@ -39,6 +39,15 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <validationSteps>
+      <id>6e9ac4ca-6ab8-4880-b6c4-8510c8641655</id>
+      <name>New Validation</name>
+      <type>AUTO_DETECT</type>
+      <dataType>AUTO</dataType>
+      <target>RESPONSE</target>
+      <data></data>
+      <activate>true</activate>
+   </validationSteps>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
@@ -57,9 +66,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 
 //def response = WS.sendRequest(findTestObject('Your/Service/Path'))
 
-def elapsedTime = WS.getResponseElapsedTime(response)
+//def elapsedTime = WS.getResponseElapsedTime(response)
 
-println(&quot;Elapsed Time1: &quot; + elapsedTime + &quot; ms&quot;)
-</verificationScript>
+//println(&quot;Elapsed Time1: &quot; + elapsedTime + &quot; ms&quot;)
+
+
+WS.verifyElementPropertyValue(response, 'data[0].email', &quot;michael.lawson@reqres.in&quot;)</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

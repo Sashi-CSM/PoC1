@@ -61,8 +61,6 @@ assertThat(response.getStatusCode()).isEqualTo(200)
 
 assertThat(response.getStatusCode()).isIn(Arrays.asList(200, 201, 202))
 
-WS.verifyElementPropertyValue(response, 'data.first_name', &quot;Janet&quot;)
-WS.verifyElementPropertyValue(response, 'data.last_name', &quot;Weaver&quot;)
-WS.verifyElementPropertyValue(response, 'data.email', &quot;janet.weaver@reqres.in&quot;)</verificationScript>
+WS.verifyElementPropertyValue(response, 'id', &quot;27&quot;)</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

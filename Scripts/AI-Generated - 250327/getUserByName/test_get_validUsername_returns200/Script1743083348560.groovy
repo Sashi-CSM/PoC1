@@ -1,0 +1,33 @@
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.testobject.ConditionType
+import com.kms.katalon.core.testobject.TestObjectProperty
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.impl.HttpTextBodyContent
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords
+import groovy.json.JsonSlurper
+import groovy.json.JsonOutput
+
+def addHeaderConfiguration(request) {
+    def content_type_header = new TestObjectProperty("content-type", ConditionType.EQUALS, "application/json")
+    request.getHttpHeaderProperties().add(content_type_header)
+}
+
+uuid = UUID.randomUUID().toString()
+
+def createWithArrayRequest = findTestObject('Object Repository/Swagger Petstore/createUsersWithArrayInput')
+addHeaderConfiguration(createWithArrayRequest)
+def createWithArrayPayload = new HttpTextBodyContent(replaceSuffixWithUUID('[{"id": 1, "username": "test_user__unique__", "userStatus": 1}]'))
+createWithArrayRequest.setBodyContent(createWithArrayPayload)
+def createWithArrayResponse = WSBuiltInKeywords.sendRequest(createWithArrayRequest)
+WSBuiltInKeywords.verifyResponseStatusCode(createWithArrayResponse, 200)
+
+def getUserRequest = findTestObject('Object Repository/Swagger Petstore/getUserByName', ['username': 'test_user__unique__'])
+addHeaderConfiguration(getUserRequest)
+def getUserResponse = WSBuiltInKeywords.sendRequest(getUserRequest)
+WSBuiltInKeywords.verifyResponseStatusCode(getUserResponse, 200)
+
+def replaceSuffixWithUUID(payload) {
+    replacedString = payload.replaceAll('unique__', uuid)
+    return replacedString
+}
+
