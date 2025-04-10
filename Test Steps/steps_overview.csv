@@ -1,0 +1,45 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+2,Test Logout Functionality from Health Checking Flow,"Navigate to the home page, make an appointment, toggle menu, and log out. Verify that the home page is displayed.","Step 1: Navigate to /
+Step 2: Click on link makeAppointment2
+Step 3: Click on link menuToggle
+Step 4: Click on link logout
+Step 5: Take full page screenshot as checkpoint
+",High,NEW
+1,Test Health Checking Flow Navigation and Login,Navigate to the home page and click through various elements. Log in from the profile page and verify the home page.,"Step 1: Navigate to /
+Step 2: Click on header pageTitle
+Step 3: Click on header pageTitle
+Step 4: Click on header pageTitle
+Step 5: Click on strong object
+Step 6: Click on div serviceDescription
+Step 7: Click on link makeAppointment -> Navigate to page 'profile#profile.php'
+Step 8: Login -> Navigate to page '/'
+Step 9: Click on input hospitalReadmission -> Navigate to page ''
+Step 10: Take full page screenshot as checkpoint
+",Medium,NEW
+3,Test Booking an Appointment with Health Checking Flow,"Navigate to the home page, make an appointment, log in, fill in details, and book an appointment. Verify the appointment page.","Step 1: Navigate to /
+Step 2: Click on link makeAppointment
+Step 3: Click on link makeAppointment -> Navigate to page 'profile#profile.php'
+Step 4: Login -> Navigate to page '/'
+Step 5: Click on input hospitalReadmission
+Step 6: Click on input visitDate
+Step 7: Click on td tableCellWe
+Step 8: Click on textarea comment
+Step 9: Enter input value in textarea comment
+Step 10: Click on button bookAppointment -> Navigate to page 'appointment#appointment.php'
+Step 11: Take full page screenshot as checkpoint
+",Trivial,NEW
+4,Test Complete Health Appointment Booking Process,"Navigate to the home page, log in, fill in appointment details, book an appointment, and return to the home page. Verify the home page.","Step 1: Navigate to /
+Step 2: Click on link makeAppointment -> Navigate to page 'profile#profile.php'
+Step 3: Login -> Navigate to page '/'
+Step 4: Click on input hospitalReadmission
+Step 5: Click on span object
+Step 6: Click on td tableCellWe
+Step 7: Click on textarea comment
+Step 8: Enter input value in textarea comment
+Step 9: Click on button bookAppointment -> Navigate to page 'appointment#appointment.php'
+Step 10: Click on header appointmentConfirmation
+Step 11: Click on link goToHomepage -> Navigate to page '/'
+Step 12: Click on link makeAppointment2
+Step 13: Click on strong object -> Navigate to page ''
+Step 14: Take full page screenshot as checkpoint
+",Trivial,NEW
