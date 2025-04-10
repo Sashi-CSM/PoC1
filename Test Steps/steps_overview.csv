@@ -1,4 +1,14 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
+3,Explore Product Features and Add to Favorites in Tool Shop,"Navigate the Tool Shop homepage, view product details, increase quantity, and add items to favorites. Verify navigation back to the homepage.","Step 1: Navigate to /
+Step 2: Click on link dynamicObject (page4)
+Step 3: Click on link productView (crossHeadScrews) -> Navigate to page 'product#product/*'
+Step 4: Click on button increaseQuantity
+Step 5: Click on button addToFavorites
+Step 6: Click on link productDetails (m4NutsMoreInfo)
+Step 7: Click on link productDetails (washersMoreInfo)
+Step 8: Click on p fastenersForgeFlexTools -> Navigate to page ''
+Step 9: Take full page screenshot as checkpoint
+",High,STABLE
 2,Navigate Home and Verify Product Favorites in Tool Shop,"Navigate to the home page, select a product category, view product details, and verify the home page after interacting with favorites.","Step 1: Navigate to /
 Step 2: Click on input selectCategory
 Step 3: Click on link viewProduct (viewProductSledgehammer) -> Navigate to page 'product#product/*'
@@ -8,7 +18,98 @@ Step 6: Click on link pageNavigation
 Step 7: Click on link viewProduct (viewProductOpenEndSpanners) -> Navigate to page 'product#product/*'
 Step 8: Click on button cartFavoritesAction (addToCart) -> Navigate to page ''
 Step 9: Take full page screenshot as checkpoint
-",High,NEW
+",High,STABLE
+4,Verify Adding Tools to Cart and Resetting Password in Tool Shop,"Navigate through the Tool Shop, add products to the cart, and proceed to checkout. Reset password if needed and verify return to home page.","Step 1: Navigate to /
+Step 2: Click on link pageNavigation (page4)
+Step 3: Click on link pageNavigation (page3)
+Step 4: Click on link pageNavigation (pageNavigation)
+Step 5: Click on link toolProducts (openEndSpanners) -> Navigate to page 'product#product/*'
+Step 6: Click on button addToCart
+Step 7: Click on link productDetails (adjustableWrenchMore)
+Step 8: Click on link productDetails (openEndSpannersMore)
+Step 9: Click on button addToCart
+Step 10: Click on link cart -> Navigate to page 'checkout#checkout'
+Step 11: Click on list cart
+Step 12: Click on list cart
+Step 13: Click on button proceedToCheckout
+Step 14: Login -> Navigate to page 'forgot-password auth#auth/forgot-password'
+Step 15: Click on input email
+Step 16: Enter input value in input email
+Step 17: Click on input setNewPassword -> Navigate to page ''
+Step 18: Take full page screenshot as checkpoint
+",Medium,NEW
+6,Verify Adding Favorite Tools and Managing Cart in Tool Shop,"Browse tool products in Tool Shop, add favorites, adjust quantities, and add to cart. Verify successful navigation to home page.","Step 1: Navigate to /
+Step 2: Click on link next
+Step 3: Browse tool products and add them to favorites
+	- Step 1: Click on link pageNavigation
+	- Step 2: Click on link toolProducts -> Navigate to page 'product#product/*'
+	- Step 3: Click on button increaseQuantity
+	- Step 4: Click on button addToFavorites
+	- Step 5: Click on link productDetails
+Step 4: Click on button decreaseQuantity
+Step 5: Click on button addToCart
+Step 6: Click on p description
+Step 7: Click on header productName
+Step 8: Click on link cart2 -> Navigate to page ''
+Step 9: Take full page screenshot as checkpoint
+",Medium,NEW
+5,Verify Quantity Adjustments for Tools in Tool Shop,"Navigate to Tool Shop, select tool products, adjust quantities, and verify changes. Ensure navigation back to home page is successful.","Step 1: Navigate to /
+Step 2: Click on button languageSelect
+Step 3: Click on body object
+Step 4: Click on link toolProducts (boltCutters) -> Navigate to page 'product#product/*'
+Step 5: Click on link productDetails (combinationPliersMore)
+Step 6: Click on button increaseQuantity
+Step 7: Click on link productDetails (boltCuttersMore)
+Step 8: Click on button decreaseQuantity
+Step 9: Click on link productDetails (longNosePliersMore)
+Step 10: Click on div quantity
+Step 11: Click on div quantity
+Step 12: Click on link productDetails (slipJointPliersMore)
+Step 13: Click on button increaseQuantity
+Step 14: Click on link supportProject
+Step 15: Click on link navigateHome -> Navigate to page '/'
+Step 16: Click on link pageNavigation (page4)
+Step 17: Click on link toolProducts (earProtection) -> Navigate to page 'product#product/*'
+Step 18: Click on link productDetails (safetyGogglesMore)
+Step 19: Click on button increaseQuantity
+Step 20: Click on link productDetails (protectiveGlovesMore)
+Step 21: Click on button decreaseQuantity
+Step 22: Click on link productDetails (superThinProtectionGloves) -> Navigate to page ''
+Step 23: Take full page screenshot as checkpoint
+",Low,NEW
+7,Verify Multiple Additions and Quantity Management for Tools in Tool Shop,"Navigate to Tool Shop, manage quantities for multiple tool products, add them to cart, and verify return to home page.","Step 1: Navigate to /
+Step 2: Click on link toolProducts (combinationPliers) -> Navigate to page 'product#product/*'
+Step 3: Click on header productName2
+Step 4: Click on button increaseQuantity2
+Step 5: Click on button addToCart2
+Step 6: Click on link productDetails (pliersMore)
+Step 7: Click on button decreaseQuantity2
+Step 8: Click on button addToCart2
+Step 9: Click on header productName2
+Step 10: Click on link productDetails (boltCuttersMore2)
+Step 11: Click on header productName2
+Step 12: Click on button increaseQuantity2
+Step 13: Click on button addToCart2
+Step 14: Click on link productDetails (longNosePliersMore2)
+Step 15: Click on div quantity2
+Step 16: Click on header productName2
+Step 17: Click on link productDetails (slipJointPliersMore2)
+Step 18: Click on header productName2
+Step 19: Click on button decreaseQuantity2
+Step 20: Click on button addToCart2
+Step 21: Click on link practiceSoftwareTesting -> Navigate to page '/'
+Step 22: Click on link pageNavigation (pageNavigation2)
+Step 23: Click on link toolProducts (woodSaw) -> Navigate to page 'product#product/*'
+Step 24: Click on button increaseQuantity2
+Step 25: Click on button addToCart2
+Step 26: Click on link practiceSoftwareTesting -> Navigate to page '/'
+Step 27: Click on link pageNavigation (pageNavigation2)
+Step 28: Click on link toolProducts (adjustableWrench) -> Navigate to page 'product#product/*'
+Step 29: Click on button increaseQuantity2
+Step 30: Click on button addToCart2
+Step 31: Click on header productName2 -> Navigate to page ''
+Step 32: Take full page screenshot as checkpoint
+",Trivial,NEW
 1,Explore Hand Tools and Verify Favorites in Tool Shop,"Navigate to the home page, explore hand tools, view multiple product details, and verify the home page after adding favorites.","Step 1: Navigate to /
 Step 2: Click on link navigateCategories
 Step 3: Click on link navigateHandTools -> Navigate to page 'hand tools category#*/*'
@@ -26,4 +127,4 @@ Step 14: Click on link navigateCategories
 Step 15: Click on link navigateOther -> Navigate to page 'other category#*/*'
 Step 16: Click on link viewProductSafetyGoggles -> Navigate to page ''
 Step 17: Take full page screenshot as checkpoint
-",Trivial,NEW
+",Trivial,STABLE

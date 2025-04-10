@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link dynamicObject (page4)",
+        "step 3: Click on link productView (crossHeadScrews) -> Navigate to page 'product#product/*'",
+        "step 4: Click on button increaseQuantity",
+        "step 5: Click on button addToFavorites",
+        "step 6: Click on link productDetails (m4NutsMoreInfo)",
+        "step 7: Click on link productDetails (washersMoreInfo)",
+        "step 8: Click on p fastenersForgeFlexTools -> Navigate to page ''",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}
