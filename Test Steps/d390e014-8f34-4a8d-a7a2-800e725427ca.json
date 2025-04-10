@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on input selectCategory",
+        "step 3: Click on link viewProduct (viewProductSledgehammer) -> Navigate to page 'product#product/*'",
+        "step 4: Click on link viewProductDetails (viewProductClawHammer)",
+        "step 5: Click on link navigateHome -> Navigate to page '/'",
+        "step 6: Click on link pageNavigation",
+        "step 7: Click on link viewProduct (viewProductOpenEndSpanners) -> Navigate to page 'product#product/*'",
+        "step 8: Click on button cartFavoritesAction (addToCart) -> Navigate to page ''",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}
